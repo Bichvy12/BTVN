@@ -1,0 +1,199 @@
+main {
+    font-family: Arial, sans-serif;
+    background: white;
+    margin: auto;
+    width: 900px;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    padding: 70px 0;
+    width: 900px;
+    margin:auto;
+}
+.name{
+    display:flex;
+}
+.name img{
+    width: 40px;
+    height:40px;
+}
+.name p{
+    font-size: 18px;
+    margin:10px;
+}
+.icon{
+    margin: 10px;
+}
+.interview{
+    display: flex;
+}
+.interview img{
+    width: 40%;
+    flex: 1;
+}
+
+.content{
+    padding-left: 70px;
+    flex: 4;
+} 
+.hi {
+    color: gray;
+    font-size: 16px;
+}
+.content h1 {
+    font-size: 48px;
+}
+.stats {
+    margin-top: 20px;
+    display:flex;
+}
+.stats span {
+    color: red;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 60px 0 0;
+}
+
+.about {
+    padding: 40px 0 90px;
+
+}
+h3 {
+    border-bottom: 2px solid red;
+    display: inline-block;
+    padding: 0 0 7px;
+}
+.about p{
+    font-family: "Inter";
+    font-size: 24px;
+    color: #373737;
+    margin: 0 0 60px;
+}
+.about .btn {
+    width:200px;
+    height: 50px;
+    margin: auto;
+    border: 2px solid red;
+    color: red;
+    background-color: white;
+    border-radius: 60px;
+    font-size: 12px;
+    padding: 17px 30px;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+#skills{
+    display: flex;
+    padding-bottom: 80px;
+}
+#Core{
+    flex:1;
+}
+#skills h3{
+    margin-right: 50%;
+}
+#other{
+    flex:1;
+}
+.factor{
+    display: inline-block;
+    border:1px solid #cbc9c9;
+    border-radius:27px;
+    padding: 10px 20px;
+    margin: 0 15px 15px 0;
+}
+#experience{
+    padding:10px 0 80px 0;
+    display:flex;
+    font-family: 'Inter';
+}
+#experience div{
+    padding: 0 60px 0 0;
+}
+.officeName{
+    font-size: 24px;
+    font-family: "Inter";
+    color:#373737
+}
+.job{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+ul{
+    padding:10px 0 0;
+}
+li{
+    padding: 0 0 20px;
+    margin: 0 0 0 28px;
+}
+.card{
+    background-color: #f7f7f7;
+    padding: 40px 70px 0;
+    margin-bottom: 40px;
+    display:flex;
+    justify-content: space-between;
+}
+.app{
+    padding: 20px 45px 60px 0;
+}
+.contentApp{
+    font-size: 18px;
+}
+.titleApp{
+    font-size:30px;
+    font-weight: bold;
+    margin:0 0 30px 0;
+}
+.img img{
+    width:300px;
+}
+.btnDetail{
+    width:120px;
+    height: 50px;
+    margin: 40px 0 10px;
+    border: 2px solid red;
+    color: red;
+    border-radius: 60px;
+    font-size: 12px;
+    padding: 17px 30px;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+footer{
+    background-color: black;
+    padding:100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: sans-serif;
+}
+.startEnd{
+    color:#d1d1d1;
+}
+h4{ 
+    color:white;
+    font-size: 48px;
+    margin: 0 0 8px 0;
+}
+footer p{
+    color:white;
+    font-size:18px;
+}
+footer div{
+    padding: 0 0 90px;
+}
+.btnEnd{
+    width:150px;
+    height: 50px;
+    margin: auto;
+    border: 2px solid red;
+    color: red;
+    border-radius: 60px;
+    font-size: 12px;
+    padding: 17px 30px;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
