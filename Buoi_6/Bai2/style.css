@@ -1,0 +1,113 @@
+body{
+    background-color: #484b54;
+}
+.Sadie {
+    background-image: url("https://tympanus.net/Development/HoverEffectIdeas/img/2.jpg");
+    width: 480px;
+    height: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.Title {
+    text-align: center;
+    text-transform: uppercase;
+    color: #528cb3;
+    padding-top: 170px;
+    font-size: 30px;
+    transition: 0.5s ease;
+}
+
+.Title span {
+    font-weight: bold;
+}
+
+.Content {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    opacity: 0;
+    transition: 0.5s ease;
+    margin-top: 100px;
+}
+
+
+.Sadie:hover .Title {
+    color: white;
+    transform: translateY(-50px);
+}
+
+.Sadie:hover .Content {
+    opacity:1;
+    transform: translateY(-10px);
+}
+.Sadie .screen{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    opacity: 0;
+    background-color: #528cb393;
+    transition: 0.5s ease;
+}
+.Sadie:hover .screen{
+    opacity: 0.4;
+}
+
+.Honey {
+    background-image: url("https://tympanus.net/Development/HoverEffectIdeas/img/4.jpg");
+    width: 480px;
+    height: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.TitleHoney {
+    text-transform: uppercase;
+    color: white;
+    padding-top: 260px;
+    padding-left: 50px;
+    font-size: 30px;
+    transition: 0.5s ease;
+}
+
+.TitleHoney #HoneySpan {
+    font-weight: bold;
+}
+.Now {
+    opacity: 0;
+    transition: 0.5s ease;
+}
+.Honey:hover .TitleHoney {
+    transform: translateY(35px);
+}
+.Honey:hover .Now{
+    opacity: 1;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height:9px;
+    opacity: 0;
+    background-color: white;
+    transition: 0.5s ease;
+}
+.Honey:hover .footer{
+    opacity: 1;
+}
+.Honey .screen{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    opacity: 0;
+    background-color: #ae1feb7c;
+    transition: 0.5s ease;
+}
+.Honey:hover .screen{
+    opacity: 0.4;
+}
